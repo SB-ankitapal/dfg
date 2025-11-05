@@ -41,6 +41,14 @@ paths:
                       type:
                         - number
                         - integer
+                  refff:
+                    $ref: ../models/model23434.yaml
+                    x-stoplight:
+                      id: e9hcl3eltt11v
+                  tgygh:
+                    $ref: ../models/mmihufhuh.json
+                    x-stoplight:
+                      id: a4b7vzu97icql
         '404':
           description: User Not Found
       operationId: get-users-userId
