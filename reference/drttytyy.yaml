@@ -70,6 +70,7 @@ paths:
                     type:
                       - integer
                       - number
+      x-extension-1: null
     patch:
       summary: Update User Information
       operationId: patch-users-userId
