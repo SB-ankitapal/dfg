@@ -1,0 +1,31 @@
+title: model23434
+x-stoplight:
+  id: uv4cyq8wnv4mr
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: l44jwijeit1g2
+  option:
+    type: string
+    x-stoplight:
+      id: ur5s7mkrgu0r2
+  test1:
+    type: string
+    x-stoplight:
+      id: 6v2je6d217kr6
+  tet2:
+    type: object
+    x-stoplight:
+      id: r1ue9afdhfd7i
+    additionalProperties:
+      x-stoplight:
+        id: y5ntd9gybrcqj
+      type: object
+      additionalProperties:
+        x-stoplight:
+          id: fbom7t32fwk63
+        type:
+          - string
+          - number
