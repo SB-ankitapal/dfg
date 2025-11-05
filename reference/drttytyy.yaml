@@ -10,6 +10,11 @@ paths:
   '/users/{userId}':
     parameters:
       - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
           type: integer
         name: userId
         in: path
@@ -30,13 +35,41 @@ paths:
                     type: object
                     x-stoplight:
                       id: if2vvy09x55fb
-                    additionalProperties: {}
+                    additionalProperties:
+                      x-stoplight:
+                        id: bfd67yj7xrfam
+                      type:
+                        - number
+                        - integer
         '404':
           description: User Not Found
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
         id: dbx3tt24fcrtz
+    put:
+      summary: Your PUT endpoint
+      tags: []
+      responses: {}
+      operationId: put-users-userId
+      x-stoplight:
+        id: ymwmanqzgrvvo
+      requestBody:
+        content:
+          text/html:
+            schema:
+              type: object
+              properties:
+                vhbhh:
+                  type: object
+                  x-stoplight:
+                    id: ox6uywyhpwf2c
+                  additionalProperties:
+                    x-stoplight:
+                      id: geu7d8hk5js55
+                    type:
+                      - integer
+                      - number
     patch:
       summary: Update User Information
       operationId: patch-users-userId
