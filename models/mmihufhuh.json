@@ -1,0 +1,42 @@
+{
+  "title": "mmihufhuh",
+  "x-stoplight": {
+    "id": "2ykgudoe8av8n"
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "qpbctfjrvk4qu"
+      }
+    },
+    "jbvyfuf": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "dd0zpamn7im27"
+      }
+    },
+    "bgbggb": {
+      "type": "object",
+      "x-stoplight": {
+        "id": "nthrbbst41xtq"
+      },
+      "additionalProperties": {
+        "x-stoplight": {
+          "id": "b87s8wsszvfj7"
+        },
+        "type": "object",
+        "additionalProperties": {
+          "x-stoplight": {
+            "id": "1uw2je066frjs"
+          },
+          "type": [
+            "string",
+            "number"
+          ]
+        }
+      }
+    }
+  }
+}
